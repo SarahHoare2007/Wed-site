@@ -1,0 +1,99 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "raleway", sans-serif;
+    text-align: center;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+h1, h2 {
+    font-family: "bodoni-moda", serif;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #030972;
+    height: 25vh;
+    color: white;
+    justify-content: space-between;
+    padding: 15px;
+}
+.names{
+    font-family: "Dancing Script", cursive;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+}
+ .navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+ }
+ .navbar li {
+    padding: 5px;
+    font-size: 13px;
+ }
+ .image {
+    height: 50vh;
+ }
+ img {
+    width: 100vw;
+    }
+
+.blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #030972;  
+    color: white; 
+    padding: 50px;
+}
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-top: 50px;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-top: 50px;
+}
+.registry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+}
+.button {
+    background-color: #030972;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    margin: 30px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #030972;
+    color: white;
+    padding: 50px;
+}
