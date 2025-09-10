@@ -1,5 +1,8 @@
 
-
+a {
+    text-decoration: none;
+    color: white;
+}
 body {
     margin: 0;
     padding: 0;
@@ -18,7 +21,7 @@ h1, h2 {
     flex-direction: column;
     align-items: center;
     background-color: #030972;
-    height: 25vh;
+    height: 17vh;
     color: white;
     justify-content: space-between;
     padding: 15px;
@@ -34,7 +37,15 @@ h1, h2 {
 .navbar {
     display: flex;
     flex-direction: column;
-    width: 85vw;
+    align-items: center;
+    width: 100vw;
+    background-color: #030972;
+    position: sticky;
+    top:0px;
+
+    border: 2px solid #030972;
+    z-index: 99;
+
 }
  .navbar ul {
     display: flex;
@@ -42,10 +53,13 @@ h1, h2 {
     list-style-type: none;
     justify-content: space-between;
     padding: 0;
+    width: 85vw;
  }
- .navbar li {
+ .navbar li a{
     padding: 5px;
     font-size: 13px;
+    text-decoration: none;
+    color: white;
  }
  .image {
     height: 50vh;
