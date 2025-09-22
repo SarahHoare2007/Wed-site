@@ -63,9 +63,17 @@ h1, h2 {
  }
  .image {
     height: 50vh;
- }
- img {
     width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+ }
+ #mobile {
+    height: 50vh;
+    }
+    #desktop{
+        display: none;
     }
 
 .blue {
@@ -110,4 +118,31 @@ h1, h2 {
     background-color: #030972;
     color: white;
     padding: 50px;
+}
+
+.flower-right {
+    width: 200px;
+}
+.flower-left {
+    width: 200px;
+    transform: scaleX(-1);
+}
+.flowers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90vw;
+    justify-content: space-between;
+    z-index: 0;
+    margin-top: -60px;
+}
+
+@media (min-width: 500px) {
+#desktop{
+    height: 50vh;
+    display: flex;
+}
+#mobile {
+display: none;
+}
 }
