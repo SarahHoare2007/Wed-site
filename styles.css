@@ -25,9 +25,11 @@ h1, h2 {
     color: white;
     justify-content: space-between;
     padding: 15px;
+    overflow: visible;
 }
 .names{
     font-family: "Dancing Script", cursive;
+    margin: 0px;
 }
 .info {
     display: flex;
@@ -61,6 +63,10 @@ h1, h2 {
     text-decoration: none;
     color: white;
  }
+
+ .topbar {
+    width: 90vw;
+ }
  .image {
     height: 50vh;
     width: 100vw;
@@ -82,19 +88,18 @@ h1, h2 {
     align-items: center;
     background-color: #030972;  
     color: white; 
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
 }
 .date {
     display: flex;
     flex-direction: column;
-    align-items: center;  
-    padding-top: 50px;
+    align-items: center;
+    padding-bottom: 40px;  
 }
 .location {
     display: flex;
     flex-direction: column;
     align-items: center;  
-    padding-top: 50px;
 }
 .registry {
     display: flex;
@@ -102,6 +107,7 @@ h1, h2 {
     align-items: center;
     background-color: white;
     padding: 50px;
+    padding-bottom: 0px;
 }
 .button {
     background-color: #030972;
@@ -121,10 +127,10 @@ h1, h2 {
 }
 
 .flower-right {
-    width: 200px;
+    width: 40vw;
 }
 .flower-left {
-    width: 200px;
+    width: 40vw;
     transform: scaleX(-1);
 }
 .flowers {
@@ -137,6 +143,17 @@ h1, h2 {
     margin-top: -60px;
 }
 
+.flowerbar {
+    width: 85vw;
+}
+.flb-left{
+    width: 40vw;
+    transform: scaleX(-1);
+}
+.flb-right {
+     width: 40vw;
+}
+
 @media (min-width: 500px) {
 #desktop{
     height: 50vh;
@@ -144,5 +161,20 @@ h1, h2 {
 }
 #mobile {
 display: none;
+}
+.flower-left, .flower-right, .flb-left, .flb-right {
+    width: 230px;
+}
+.flowerbar {
+    width: 450px;
+}
+.topbar {
+    width: 300px;
+}
+.flowers {
+    width: 650px;
+}
+.text {
+    width: 400px;
 }
 }
